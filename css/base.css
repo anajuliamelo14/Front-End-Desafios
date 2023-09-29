@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --cor-primaria: #198754;
+    --cor-secundaria: #21b06d;
+}
+
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+table.table {
+    box-shadow: 0 0 10px 0 rgba(102, 236, 30, 0.82);
+    border-radius: 6px;
+}
+
+table.table>thead>tr th {
+    background-color: #198754;
+    color: #ffffff;
+}
+
+button.btn{
+    min-width: 80px;
+    background-color: #14784a;
+    color: #ffffff;
+    border-color: #137145;
+    font-weight: 500;
+}
+
+nav.navbar {
+    box-shadow:  0 0 10px 0 rgba(90, 255, 20, 0.82);
+}
+/* Override */
+/* div.modal-dialog{
+    max-width: 700px;
+} */

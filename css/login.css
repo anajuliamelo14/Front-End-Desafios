@@ -1,0 +1,142 @@
+/*
+    TAG (button, body, input)
+    Classe (.titulo .grupo)
+    Id (#btn-entrar)
+    Seletor (Tudo junto e misturado)
+*/
+
+
+
+.grupo {
+    margin-top: 10px;
+   }
+
+
+   .main-login {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212529;
+   }
+
+
+   body {
+   font-family: 'Quicksand', sans-serif;
+   }
+
+   .left-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: var(--cor-primaria);
+   }
+
+   .left-login > h1 {
+    font-size: 3vw;
+    font-weight: 700;
+    color: #5edb50;
+    margin-top: 70px;
+   }
+
+   .left-image {
+    width: 30vw;
+    margin: auto;
+   }
+
+   .right-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+
+   .card-login {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #198754;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #51f41b56;
+   }
+
+   .card-login > h1 {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 900;
+    margin: 0px;
+   }
+
+
+   .grupo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+   }
+
+   .grupo > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #ffffff;
+    color: #000000;
+    box-shadow: 0px 10px 40px #6def5f;
+    outline: none;
+    box-sizing: border-box;
+   }
+
+
+   label {
+      font-size: 15px;
+      font-weight: 600;
+      color: #ffffff;
+   }
+
+   input, 
+   #btn-entrar {
+    padding: 8px;
+    width: 100%;
+    border-radius: 4px;
+    border: 2px solid #ddd;
+    outline: none;
+   }
+
+   #btn-entrar {
+    margin-top: 10px;
+    background-color: #08482a;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+   }
+
+   #btn-entrar:hover {
+    cursor: pointer;
+    background-color: #16593a;
+   }
+
+  
+   .esqueci-minha-senha {
+      text-align: right;
+      font-style: italic;
+      margin-top: 3px;
+   }
+
+   .esqueci-minha-senha a {
+       color: #fff;
+       text-decoration: none;
+       font-size: 12px;
+       font-weight: 800;
+   }
